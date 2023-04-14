@@ -24,7 +24,7 @@ while(True):
 		#flags = cv2.CV_HAAR_SCALE_IMAGE
 	)
 
-	print("Found {0} faces!".format(len(faces)))
+	print(f"Found {len(faces)} faces!")
 
 	# Draw a rectangle around the faces
 	for (x, y, w, h) in faces:
